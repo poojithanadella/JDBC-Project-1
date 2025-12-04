@@ -58,7 +58,7 @@ public class BookingDAO {
             pst.setDouble(3, amount);
             pst.executeUpdate();
             con.commit();
-            System.out.println("successfully tickets are booked");
+            System.out.println("successfully tickets are booked .Thankq for Bokking");
             System.out.println(bookingId +" is the booking id");
 
         }
